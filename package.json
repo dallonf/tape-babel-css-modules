@@ -1,11 +1,11 @@
 {
-  "name": "babel-tape-runner",
+  "name": "tape-babel-css-modules",
   "version": "1.2.0",
-  "description": "Babel + Tape for running your ES Next tests",
-  "bin": "./bin/babel-tape-runner",
+  "description": "Tape runner using Babel and CSS modules",
+  "bin": "./bin/tape-runner-babel-css-mod",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wavded/babel-tape-runner.git"
+    "url": "https://github.com/justinsisley/tape-babel-css-modules.git"
   },
   "scripts": {
     "test": "standard bin/babel-tape-runner test.js && node bin/babel-tape-runner test.js"
@@ -17,16 +17,18 @@
     "testing",
     "harmony",
     "es6",
-    "esnext"
+    "esnext",
+    "css modules"
   ],
   "author": "Marc Harter <wavded@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wavded/babel-tape-runner/issues"
+    "url": "https://github.com/justinsisley/tape-babel-css-modules/issues"
   },
-  "homepage": "https://github.com/wavded/babel-tape-runner",
+  "homepage": "https://github.com/justinsisley/tape-babel-css-modules",
   "dependencies": {
     "babel-core": "^5.8.20",
+    "css-modules-require-hook": "^1.0.10",
     "glob": "^5.0.14"
   },
   "devDependencies": {
