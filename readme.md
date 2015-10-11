@@ -1,6 +1,3 @@
-[![build status](https://img.shields.io/travis/wavded/babel-tape-runner.svg?style=flat-square)](https://travis-ci.org/wavded/babel-tape-runner) [![npm package](https://img.shields.io/npm/v/babel-tape-runner.svg?style=flat-square)](https://www.npmjs.org/package/io-barcode) [![dependency status](https://img.shields.io/david/wavded/babel-tape-runner.svg?style=flat-square)](https://david-dm.org/wavded/babel-tape-runner)
-
-
 A test runner for tape that utilizes babel in order to run test suites that include ESNext/Harmony features.
 
 ## install
@@ -8,17 +5,17 @@ A test runner for tape that utilizes babel in order to run test suites that incl
 Install globally or locally (for npm scripts):
 
 ```sh
-npm install babel-tape-runner [-g]
+npm install tape-babel-css-modules
 ```
 
 ## usage
 
-Just run `babel-tape-runner` with the files to test (just like tape's bundled runner).  Store configuration in a `.babelrc` file.
+Just run `tape-babel-css-modules` with the files to test (just like tape's bundled runner).  Store configuration in a `.babelrc` file.
 
 ```sh
-babel-tape-runner my-es-next-test.js
+tape-babel-css-modules my-es-next-test.js
 
-babel-tape-runner lib/**/__tests__/*-test.js # or glob patterns
+tape-babel-css-modules lib/**/__tests__/*-test.js # or glob patterns
 ```
 
 ## licence
