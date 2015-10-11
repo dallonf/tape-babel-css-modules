@@ -2,13 +2,13 @@
   "name": "tape-babel-css-modules",
   "version": "1.2.0",
   "description": "Tape runner using Babel and CSS modules",
-  "bin": "./bin/tape-runner-babel-css-mod",
+  "bin": "./bin/tape-babel-css-modules",
   "repository": {
     "type": "git",
     "url": "https://github.com/justinsisley/tape-babel-css-modules.git"
   },
   "scripts": {
-    "test": "standard bin/babel-tape-runner test.js && node bin/babel-tape-runner test.js"
+    "test": "standard bin/tape-babel-css-modules test.js && node bin/tape-babel-css-modules test.js"
   },
   "keywords": [
     "babel",
