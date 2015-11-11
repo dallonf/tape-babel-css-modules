@@ -1,6 +1,6 @@
 {
   "name": "tape-babel-css-modules",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Tape runner using Babel and CSS modules",
   "bin": "./bin/tape-babel-css-modules",
   "repository": {
@@ -27,12 +27,16 @@
   },
   "homepage": "https://github.com/justinsisley/tape-babel-css-modules",
   "dependencies": {
-    "babel-core": "^5.8.20",
-    "css-modules-require-hook": "^1.0.10",
-    "glob": "^5.0.14"
+    "babel-core": "^6.1.2",
+    "css-modules-require-hook": "^2.0.2",
+    "glob": "^5.0.15",
+    "postcss-modules-extract-imports": "^1.0.0",
+    "postcss-modules-local-by-default": "^1.0.0",
+    "postcss-modules-scope": "^1.0.0",
+    "postcss-modules-values": "^1.1.1"
   },
   "devDependencies": {
-    "standard": "^5.0.0",
-    "tape": "^4.0.2"
+    "standard": "^5.3.1",
+    "tape": "^4.2.2"
   }
 }
