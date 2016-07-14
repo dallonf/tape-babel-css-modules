@@ -28,7 +28,7 @@
   "homepage": "https://github.com/justinsisley/tape-babel-css-modules",
   "dependencies": {
     "babel-core": "^6.1.2",
-    "css-modules-require-hook": "^2.0.2",
+    "css-modules-require-hook": "^4.0.1",
     "glob": "^5.0.15",
     "postcss-modules-extract-imports": "^1.0.0",
     "postcss-modules-local-by-default": "^1.0.0",

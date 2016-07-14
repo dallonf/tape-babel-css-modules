@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 require('babel-core/register')
-require('css-modules-require-hook')
+require('css-modules-require-hook/preset')
 var path = require('path')
 var glob = require('glob')
 
